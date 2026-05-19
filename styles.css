@@ -1,0 +1,1131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.success {
+    color: green;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+    color: red;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+
+body{
+ 
+    background-color: #e3e3e3;
+
+}
+
+
+span{
+    color: red;
+}
+
+.main{
+    padding-top: 80px;
+}
+
+header{
+    top : 0;
+    width: 100%;
+    position: fixed;
+  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 50px;
+    background-color: black;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+  
+}
+
+nav a{
+   font-family: 'open sans', sans-serif;
+   color: white;
+   text-decoration: none;
+}
+
+
+nav a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.nav_links{
+    display: flex;
+    gap: 40px;
+}
+
+.red-bar {
+  height: 50px;
+  background: #e60000;
+
+}
+
+
+.Publicidad{
+    display: flex;
+    width: 80%;
+    height: 16vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px 0px;
+    padding-left: 50px;
+   
+}
+
+.Publicidad button{
+    background-color: red;
+    color: white;
+    font-family: agrandir, sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    height: 95%;
+    width: 300px;
+    border: none;
+    align-self: center;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.Publicidad button:hover{
+    background-color: black;
+    transition: 0.8s;
+  
+}
+
+
+.Publicidad h1{
+   font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: start;
+ 
+}
+
+.Publicidad p{
+    font-family: 'open sans', sans-serif;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+  
+}
+
+.TextoPublicidad{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 6px;
+}
+
+.Div_btn_membresias{
+
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.Btn_Membresia{
+
+    background-color: black;
+    color: white;
+    font-family: agrandir, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    height: 47px;
+    width: 380px;
+    border: none;
+    border-radius: 40px;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+
+.Btn_Admin{
+
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    transition: 0.3s;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.Btn_Admin:hover{
+    background-color: black;
+    transition: 0.8s;
+    transform: scale(1.07); 
+    color: white;
+}
+
+
+.Btn_Membresia:hover{
+    background-color: red;
+    transition: 0.8s;
+    transform: scale(1.07); 
+}
+
+.Btn_Membresia:active{
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
+.Text_instalaciones{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+
+.Imgs_instalaciones{ 
+    width: 100%;
+     display: grid; 
+     grid-template-columns: repeat(3, 1fr); 
+     justify-items: center; 
+     padding: 10px; 
+     gap: 50px; 
+    }
+
+
+.Imgs_instalaciones img{
+      width: 100%;
+    height: 250px;
+     transition: transform 0.5s ease-in-out;
+}
+
+.Imgs_instalaciones img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.Instalacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Instalacion p {
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Texto_Arriba{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins, sans-serif;
+    gap: 10px;
+    margin: 30px 0px;
+    padding-top: 10px;
+  
+}
+
+.Texto_Arriba h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Texto_Arriba h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Contenedor_Membresias{
+ 
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.Membresia{
+   
+    background-color: white;
+    border-radius: 40px;
+    width: 300px;
+    height: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 40px;
+    border: 2px solid darkgray;
+}
+
+
+.Membresia h1{
+    font-family:poppins, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Membresia h2
+{
+    font-family:poppins, sans-serif;
+    font-size: 18px;
+   font-weight: normal;
+}
+.Membresia p{
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    text-align:start;
+    margin: 30px 0px;
+}
+
+.Precio{
+    width: 100%;
+    display: flex;
+    justify-content: start; 
+   padding-left: 40px;
+   font-weight: 600;
+   font-size: 26px;
+   
+   
+}
+
+.Membresia button{
+    background-color: red;
+    color: white;
+    font-family: agrandir, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    height: 50px;
+    width: 90%;
+    border: none;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.Membresia button:hover{
+    background-color: black;
+    transition: 0.8s;
+    transform: scale(1.07); 
+
+}
+
+
+.Palomita{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+
+.Cruz{
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+}
+
+
+.Beneficio{
+    margin: 0;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    height: 10%;
+}
+
+.No_Beneficio{
+    margin: 0;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 13px;
+    height: 10%;
+    text-decoration: line-through;
+}
+
+.Contenedor_Beneficios{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+
+
+.Formulario_IS{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-family: poppins, sans-serif;
+    gap: 50px;
+    padding: 40px;
+}
+
+.Input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.Input_IS{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+
+.Input_IS input {
+      
+    height: 25px;
+    padding: 0px 10px;
+    font-size: 15px;
+    border: 1.5px solid #aaa;
+    background: #fff;
+    outline: none;
+    width: 250px;
+}
+
+.Input_IS label{
+
+    font-size: 20px;
+    width: 140px;
+    text-align: right;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+}
+
+
+
+#IS{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 45px;
+     font-family: poppins, sans-serif;
+     font-size: 20px;
+     transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+     border: none;
+     margin: 20px;
+}
+
+#IS:hover{
+       background-color: red;
+    transition: 0.8s;
+    transform: scale(1.07); 
+    
+}
+
+
+
+.IS_Registro{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.IS_Registro button{
+
+    background-color: red;
+    color: white;
+    width: 160px;
+    height: 45px;
+     font-family: poppins, sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+     border: none;
+     border-radius: 20px;
+}
+
+.IS_Registro button:hover{
+        background-color: black;
+    transition: 0.8s;
+    transform: scale(1.07); 
+}
+
+.Contenedor_Registro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 60px;
+    flex-wrap: wrap;
+}
+
+.Tarjeta_Registro {
+    background-color: darkgray;
+    border-radius: 30px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Tarjeta_Registro h3 {
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Columna_Derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.Input label {
+    font-size: 14px;
+    width: 140px;
+    text-align: right;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+  
+}
+
+.Input input {
+    height: 25px;
+    padding: 0px 10px;
+    font-size: 12px;
+    border: 1.5px solid #aaa;
+    background: #fff;
+    outline: none;
+
+}
+
+
+.Registro{
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 45px;
+     font-family: poppins, sans-serif;
+     font-size: 16px;
+    font-weight: bold;
+     transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+     border: none;
+     border-radius: 20px;
+}
+
+
+.Registro:hover{
+    background-color: red;
+    transition: 0.8s;
+    transform: scale(1.07); 
+    
+}
+
+#mensajeCorreo {
+    min-height: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#mensajeCorreo:empty {
+    display: none;
+}
+
+.Contenedor_Checkout {
+    display: flex;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 60px;
+}
+
+.Tarjeta_Resumen {
+    background-color: darkgray;
+    border-radius: 20px;
+    padding: 25px 40px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: poppins, sans-serif;
+}
+
+.Tarjeta_Resumen h3 {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Fila_Resumen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.Fila_Resumen.Total {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Divisor {
+    border: none;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.Tarjeta_Pago {
+    background-color: white;
+    border-radius: 20px;
+    padding: 35px 40px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid darkgray;
+}
+
+.Tarjeta_Pago h3 {
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Input_Checkout {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-family: poppins, sans-serif;
+}
+
+.Input_Checkout label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.Input_Checkout input {
+    height: 35px;
+    padding: 0px 12px;
+    font-size: 13px;
+    border: 1.5px solid #aaa;
+    background: #fff;
+    outline: none;
+    width: 100%;
+}
+
+input:focus {
+    border-color: red;
+}
+
+.Fila_Inputs {
+    display: flex;
+    gap: 20px;
+}
+
+
+.menu-toggle{
+    display: none;
+    color: white;
+    border: none;
+    font-size: 18px;
+    background-color: black;
+}
+
+.Panel_Admin {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 60px;
+    flex-wrap: wrap;
+}
+
+.Tarjeta_Admin {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 35px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 2px solid darkgray;
+}
+
+.Tabs_Membresia {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.Tab {
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.Tab.active {
+    background: black;
+    color: white;
+}
+
+.label_admin {
+    font-family: poppins, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 2px;
+}
+
+.Input_Admin {
+    width: 100%;
+    height: 32px;
+    padding: 0 10px;
+    font-size: 13px;
+    font-family: poppins, sans-serif;
+    border: 1.5px solid #aaa;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 8px;
+}
+
+.Input_Admin:focus {
+    border-color: red;
+}
+
+.Benefit_Row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.Input_Benefit {
+    flex: 1;
+    height: 30px;
+    padding: 0 8px;
+    font-size: 12px;
+    font-family: poppins, sans-serif;
+    border: 1.5px solid #aaa;
+    border-radius: 8px;
+    outline: none;
+}
+
+.Input_Benefit:focus {
+    border-color: red;
+}
+
+.Toggle_Benefit {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.Toggle_Benefit.on {
+    background-color: green;
+    color: white;
+}
+
+.Toggle_Benefit.off {
+    background-color: #ddd;
+    color: gray;
+}
+
+.Remove_Btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 4px;
+    transition: 0.3s;
+}
+
+.Remove_Btn:hover {
+    color: red;
+}
+
+.Btn_Agregar {
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    color: black;
+    background: none;
+    border: 1.5px solid #aaa;
+    border-radius: 20px;
+    padding: 5px 14px;
+    cursor: pointer;
+    margin-top: 4px;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.Btn_Agregar:hover {
+    border-color: black;
+}
+
+.Btn_Guardar {
+    width: 100%;
+    margin-top: 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Btn_Guardar:hover {
+    background: red;
+}
+
+.Columna_Preview {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.logout{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+
+
+.Tabs_Membresia {
+    justify-content: center;
+}
+
+.Contenedor_Tabla {
+    padding: 0 60px 60px;
+    overflow-x: auto;
+}
+
+.Tabla_Usuarios {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.Tabla_Usuarios thead { 
+    background: black; 
+    color: white;
+}
+.Tabla_Usuarios th { 
+    padding: 14px 20px; text-align: left; 
+    font-weight: bold; 
+}
+.Tabla_Usuarios tbody tr { 
+    border-bottom: 1px solid white; 
+}
+.Tabla_Usuarios tbody tr:hover { 
+    background: whitesmoke; 
+}
+.Tabla_Usuarios td {
+     padding: 13px 20px; 
+     color: black; 
+}
+.Tabla_Vacia { 
+    text-align: center;
+     color: gray; 
+     padding: 30px; 
+}
+
+.Estado {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0;
+    border-radius: 0;
+    background: none;
+}
+
+.Estado.con {
+    color: green;
+}
+
+.Estado.sin {
+    color: red;
+}
+
+
+
+
+
+@media( 600px < width <= 1200px){
+
+     .Div_btn_membresias{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+      .Btn_Membresia{
+        width: 320px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+
+      .Publicidad h1{
+        font-size: 25px;
+    }
+
+    .Publicidad p{
+        font-size: 12px;
+    }
+
+    .Publicidad button{
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .foto_instalaciones {
+        width: 100%;
+        height: 200px;
+    }
+
+    
+}
+
+
+
+
+
+@media (  600px >= width ){
+
+
+    .Div_btn_membresias{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+     .Btn_Membresia{
+        width: 280px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .Text_instalaciones{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    .Publicidad{
+        padding: 10px 3px;
+        margin-bottom: 20px;
+    }
+
+    
+    .Publicidad h1{
+        font-size: 18px;
+    }
+
+    .Publicidad p{
+        font-size: 8px;
+    }
+
+  .Publicidad button{
+        width: 90px;
+        font-size: 10px;
+    }
+
+.Membresia button{
+        font-size: 20px;
+        height: 35px;
+    }
+
+    .Texto_Arriba h1{
+    
+    font-size: 25px;
+}
+
+    .Texto_Arriba h2{
+ 
+    font-size: 18px;
+}
+
+   .Imgs_instalaciones { 
+    grid-template-columns: 1fr;
+ } 
+ 
+ .foto_instalaciones {
+     width: 100%;
+      height: 200px;
+ }
+
+
+
+     .Tarjeta_Resumen,
+    .Tarjeta_Pago {
+        width: 100%;
+    }
+
+    .Contenedor_Checkout {
+        padding: 20px;
+    }
+
+
+
+     .nav_links{
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+       background-color: black;
+       flex-direction: column;
+       width: 200px;
+       border-radius: 10px;
+       padding: 10px;
+       font-size: 15px;
+      
+    }
+
+    .nav_links.open{
+        display: flex;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+        .Contenedor_Registro {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .Tarjeta_Registro {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .Input {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .Input label {
+        text-align: left;
+        width: 100%;
+    }
+
+    .Input input {
+        width: 100%;
+    }
+
+    .Columna_Derecha {
+        width: 100%;
+    }
+
+    .Input_IS {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding: 0 20px;
+    }
+
+    .Input_IS label {
+        text-align: left;
+        width: 100%;
+    }
+
+    .Input_IS input {
+        width: 100%;
+    }
+
+    .Formulario_IS {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .Tabs_Membresia{
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contenedor_Tabla{
+    padding: 10px;
+}
+
+.Tabla_Usuarios{
+    min-width: 650px;
+}
+
+
+
+
+    
+}
+
+
+
